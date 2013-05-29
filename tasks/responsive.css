@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+	padding: 0;
+}
+#main {
+	margin: 0;
+	width: 100%;
+	height:100%;
+}
+#form-wrapper {
+	width: 100%;
+	z-index: 3;
+}
+#post-form {margin:0;}
+#form-send {
+	margin: auto;
+	width: 100%;
+}
+#form-send form {
+	width:100%;
+}
+#form-send input[type=text] {
+	width: 100%;
+	height: 80px;
+	margin: auto;
+	font-size: 1rem;
+}
+#form-send input[type=submit] {
+	width:100%;
+	margin:auto;
+	height: 50px;
+	font-size: 2rem;
+}
+#posts {
+	width: 100%;
+	height: 200px;
+	display: none;
+}
+#map_canvas {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+}
